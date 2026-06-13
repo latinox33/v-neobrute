@@ -1,0 +1,57 @@
+/**
+ * nb-component-lib global design tokens (OKLCH only).
+ */
+
+:root {
+    /* Colors */
+    --nb-background: oklch(100% 0 0);
+    --nb-foreground: oklch(0% 0 0);
+    --nb-destructive: oklch(55% 0.22 30);
+    --nb-destructive-foreground: oklch(100% 0 0);
+
+    /* Shadows — hard, zero blur */
+    --nb-shadow-sm: 2px 2px 0 oklch(0% 0 0);
+    --nb-shadow-md: 4px 4px 0 oklch(0% 0 0);
+    --nb-shadow-lg: 6px 6px 0 oklch(0% 0 0);
+    --nb-shadow-xl: 8px 8px 0 oklch(0% 0 0);
+
+    /* Border */
+    --nb-border-width: 2px;
+    --nb-border-color: oklch(0% 0 0);
+    --nb-border: var(--nb-border-width) solid var(--nb-border-color);
+
+    /* Radius */
+    --nb-radius: 0px;
+    --nb-radius-sm: 2px;
+    --nb-radius-md: 4px;
+    --nb-radius-lg: 8px;
+    --nb-radius-full: 50%;
+    --nb-radius-pill: 9999px;
+
+    /* Typography */
+    --nb-font-weight-ui: 600;
+    --nb-font-weight-strong: 800;
+
+    /* Transitions */
+    --nb-transition-fast: 80ms ease;
+    --nb-transition-normal: 150ms ease;
+
+    /* Focus ring */
+    --nb-focus-outline: 3px solid oklch(0% 0 0);
+    --nb-focus-offset: 2px;
+}
+
+.dark {
+    --nb-background: oklch(15% 0 0);
+    --nb-foreground: oklch(95% 0 0);
+    --nb-destructive: oklch(60% 0.22 30);
+
+    --nb-shadow-sm: 2px 2px 0 oklch(95% 0 0);
+    --nb-shadow-md: 4px 4px 0 oklch(95% 0 0);
+    --nb-shadow-lg: 6px 6px 0 oklch(95% 0 0);
+    --nb-shadow-xl: 8px 8px 0 oklch(95% 0 0);
+
+    --nb-border-color: oklch(95% 0 0);
+
+    --nb-focus-outline: 3px solid oklch(95% 0 0);
+}

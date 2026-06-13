@@ -1,0 +1,143 @@
+{
+    "$schema": "https://shadcn-vue.com/schema/registry.json",
+    "name": "nb-component-lib",
+    "items": [
+        {
+            "name": "nb-button",
+            "type": "registry:ui",
+            "title": "NbButton",
+            "description": "Neo-brutalist button - borders, hard shadow, zero blur.",
+            "dependencies": ["reka-ui"],
+            "files": [
+                { "path": "registry/nb/NbButton/NbButton.vue", "type": "registry:ui" },
+                { "path": "registry/nb/NbButton/index.ts", "type": "registry:ui" }
+            ]
+        },
+        {
+            "name": "nb-button-group",
+            "type": "registry:ui",
+            "title": "NbButtonGroup",
+            "description": "Neo-brutalist button group - merges buttons into one bordered block with a single hard shadow; supports separators and text segments.",
+            "dependencies": ["reka-ui"],
+            "files": [
+                { "path": "registry/nb/NbButtonGroup/NbButtonGroup.vue", "type": "registry:ui" },
+                { "path": "registry/nb/NbButtonGroup/NbButtonGroupSeparator.vue", "type": "registry:ui" },
+                { "path": "registry/nb/NbButtonGroup/NbButtonGroupText.vue", "type": "registry:ui" },
+                { "path": "registry/nb/NbButtonGroup/index.ts", "type": "registry:ui" }
+            ]
+        },
+        {
+            "name": "nb-switch",
+            "type": "registry:ui",
+            "title": "NbSwitch",
+            "description": "Neo-brutalist switch - hard shadow track, square thumb, accessible via Reka UI.",
+            "dependencies": ["reka-ui"],
+            "files": [
+                { "path": "registry/nb/NbSwitch/NbSwitch.vue", "type": "registry:ui" },
+                { "path": "registry/nb/NbSwitch/index.ts", "type": "registry:ui" }
+            ]
+        },
+        {
+            "name": "nb-badge",
+            "type": "registry:ui",
+            "title": "NbBadge",
+            "description": "Neo-brutalist badge - bold label with border and hard shadow.",
+            "files": [
+                { "path": "registry/nb/NbBadge/NbBadge.vue", "type": "registry:ui" },
+                { "path": "registry/nb/NbBadge/index.ts", "type": "registry:ui" }
+            ]
+        },
+        {
+            "name": "nb-card",
+            "type": "registry:ui",
+            "title": "NbCard",
+            "description": "Neo-brutalist card - bordered container with header, body and footer sections.",
+            "files": [
+                { "path": "registry/nb/NbCard/NbCard.vue", "type": "registry:ui" },
+                { "path": "registry/nb/NbCard/index.ts", "type": "registry:ui" }
+            ]
+        },
+        {
+            "name": "nb-checkbox",
+            "type": "registry:ui",
+            "title": "NbCheckbox",
+            "description": "Neo-brutalist checkbox - thick border, hard shadow, inverted check state, accessible via Reka UI.",
+            "dependencies": ["reka-ui"],
+            "files": [
+                { "path": "registry/nb/NbCheckbox/NbCheckbox.vue", "type": "registry:ui" },
+                { "path": "registry/nb/NbCheckbox/index.ts", "type": "registry:ui" }
+            ]
+        },
+        {
+            "name": "nb-radio-group",
+            "type": "registry:ui",
+            "title": "NbRadioGroup",
+            "description": "Neo-brutalist radio group - circular items with hard shadow, size inherited via provide/inject, accessible via Reka UI.",
+            "dependencies": ["reka-ui"],
+            "files": [
+                { "path": "registry/nb/NbRadioGroup/NbRadioGroup.vue", "type": "registry:ui" },
+                { "path": "registry/nb/NbRadioGroup/NbRadioGroupItem.vue", "type": "registry:ui" },
+                { "path": "registry/nb/NbRadioGroup/context.ts", "type": "registry:ui" },
+                { "path": "registry/nb/NbRadioGroup/index.ts", "type": "registry:ui" }
+            ]
+        },
+        {
+            "name": "nb-item",
+            "type": "registry:ui",
+            "title": "NbItem",
+            "description": "Neo-brutalist list item - compound row with media, content and actions, modeled after shadcn-vue Item.",
+            "dependencies": ["reka-ui"],
+            "files": [
+                { "path": "registry/nb/NbItem/NbItem.vue", "type": "registry:ui" },
+                { "path": "registry/nb/NbItem/NbItemMedia.vue", "type": "registry:ui" },
+                { "path": "registry/nb/NbItem/NbItemContent.vue", "type": "registry:ui" },
+                { "path": "registry/nb/NbItem/NbItemTitle.vue", "type": "registry:ui" },
+                { "path": "registry/nb/NbItem/NbItemDescription.vue", "type": "registry:ui" },
+                { "path": "registry/nb/NbItem/NbItemActions.vue", "type": "registry:ui" },
+                { "path": "registry/nb/NbItem/NbItemGroup.vue", "type": "registry:ui" },
+                { "path": "registry/nb/NbItem/index.ts", "type": "registry:ui" }
+            ]
+        },
+        {
+            "name": "nb-label",
+            "type": "registry:ui",
+            "title": "NbLabel",
+            "description": "Neo-brutalist form label - bold text with optional required mark, accessible via Reka UI.",
+            "dependencies": ["reka-ui"],
+            "files": [
+                { "path": "registry/nb/NbLabel/NbLabel.vue", "type": "registry:ui" },
+                { "path": "registry/nb/NbLabel/index.ts", "type": "registry:ui" }
+            ]
+        },
+        {
+            "name": "nb-select",
+            "type": "registry:ui",
+            "title": "NbSelect",
+            "description": "Neo-brutalist select - bordered trigger with hard shadow, portalled content, accessible via Reka UI.",
+            "dependencies": ["reka-ui"],
+            "files": [
+                { "path": "registry/nb/NbSelect/NbSelect.vue", "type": "registry:ui" },
+                { "path": "registry/nb/NbSelect/NbSelectItem.vue", "type": "registry:ui" },
+                { "path": "registry/nb/NbSelect/NbSelectGroup.vue", "type": "registry:ui" },
+                { "path": "registry/nb/NbSelect/NbSelectLabel.vue", "type": "registry:ui" },
+                { "path": "registry/nb/NbSelect/NbSelectSeparator.vue", "type": "registry:ui" },
+                { "path": "registry/nb/NbSelect/index.ts", "type": "registry:ui" }
+            ]
+        },
+        {
+            "name": "nb-accordion",
+            "type": "registry:ui",
+            "title": "NbAccordion",
+            "description": "Neo-brutalist accordion - bordered block, hard shadow, animated collapse, accessible via Reka UI.",
+            "dependencies": ["reka-ui"],
+            "files": [
+                { "path": "registry/nb/NbAccordion/NbAccordion.vue", "type": "registry:ui" },
+                { "path": "registry/nb/NbAccordion/NbAccordionItem.vue", "type": "registry:ui" },
+                { "path": "registry/nb/NbAccordion/NbAccordionTrigger.vue", "type": "registry:ui" },
+                { "path": "registry/nb/NbAccordion/NbAccordionContent.vue", "type": "registry:ui" },
+                { "path": "registry/nb/NbAccordion/context.ts", "type": "registry:ui" },
+                { "path": "registry/nb/NbAccordion/index.ts", "type": "registry:ui" }
+            ]
+        }
+    ]
+}
